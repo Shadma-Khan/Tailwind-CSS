@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+} 
+
+/* px :- fixed */
+/* h1{
+    font-size: 50px;
+} */
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+} */
+
+
+
+/* % :- Depending on parent */
+
+/* #parent{
+    height: 400px;
+    width: 400px;
+    background-color: lightseagreen;
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: green;
+} */
+
+
+/* vw:-Depend on screen width vh :- depend on screen height*/
+/* #box{
+    height: 20vh;
+    width: 20vw;
+    background-color: crimson;
+} */
+
+
+/* vmin, vmax */
+/* #box{
+    height: 30vmax;
+    width: 30vmax;
+    background-color: aquamarine;
+} */
+
+/* em :- according to parent , rem :- accorting to root */
+
+/* #parent{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(185, 43, 38);
+    font-size: 20px;
+}
+h1{
+    font-size: 5rem;
+}
+
+/* ch and lh  */
+/*p{
+    width: 8ch;
+    margin-top: 2lh;
+} */
